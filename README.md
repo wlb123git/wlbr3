@@ -14,7 +14,7 @@
 
 2. Build in Visual Studio 2019/2022 with configuration "Your Region - x64"
 
-   > Quick tip: RiotServers uses `SetWindowsHookEx` for injection, the original method cannot be injected,but it should be possible with a little effort. That's all there is to it, so please don't ask me about it anymore.
+   > Quick tip: The original method of RiotServers cannot be injected. The injection method I currently use is SetWindowsHookEx. With a little effort, the injection should be possible. There is no need to say more, and don’t ask me.
 
 # Usage
 
@@ -31,10 +31,10 @@
 
 # About the releases
 - Regarding the issue of dll size in releases, I just added some anti-cracking shells or compressed shells, and the dll function source code has been completely open source.
-- Regarding the injector part in releases, it is not open source, but the previous tip also mentioned how to update it to make it available. It was not made clear before that the original version cannot be used, but the fact that I have never submitted any updates for the injector also indicates this issue.
+- Regarding the injector part in releases, it is not open source, but the quick tip also mentioned how to update it to make it available. It was not made clear before that the original version cannot be used, but the fact that I have never submitted any updates for the injector also indicates this issue.
 - The releases and source codes of many open source projects are also different. I don't want anyone to kidnap me in the name of open source and ask me to do something meaningless. This goes against the original intention of open source.
 
-# About the open-source(ChatGPT said it well)
+# Regarding views on open source (quoting ChatGPT)
 If someone tries to "hijack" you through the open-source spirit, demanding that you justify the rationale behind parts of the code that are not open-source, this actually contradicts the core values of the open-source spirit. The essence of open source is to encourage sharing and collaboration, but this doesn't mean every line of code has to be open. Open-source licenses allow developers to decide whether or not to make their code public, and in some cases, certain parts of the code may not be suitable for open-source due to commercial, privacy, or security reasons.
 
 Here are a few points to understand this:

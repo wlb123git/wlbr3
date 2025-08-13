@@ -16,8 +16,7 @@ jobs:
     - name: Build
       shell: cmd
       run: msbuild R3nzSkin/R3nzSkin.vcxproj /p:Platform=x64 /p:Configuration=ChinaServer
-  uses: actions/upload-artifact@v3
-  with:
-    name: my-build-output
-    path: D:\a\wlbr3\wlbr3\R3nzSkin\Release\ChinaServer\R3nzSkin.dll
+      uses: actions/upload-artifact@v3
+      name: my-build-output
+      path: D:\a\wlbr3\wlbr3\R3nzSkin\Release\ChinaServer\R3nzSkin.dll
 
